@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redgum.Logging.Extensions", "Redgum.Logging.Extensions\Redgum.Logging.Extensions.csproj", "{81F4F36D-1C7C-4D62-B9F8-87262B0993FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redgum.Logging.Extensions.Examples", "Redgum.Logging.Extensions.Examples\Redgum.Logging.Extensions.Examples.csproj", "{B3C5888E-C588-4B8E-841D-92528377138D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redgum.Logging.Extensions.Benchmarks", "Redgum.Logging.Extensions.Benchmarks\Redgum.Logging.Extensions.Benchmarks.csproj", "{800B1CD8-A515-4F3A-9A48-C57EDAE17096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redgum.Logging.Extensions.Justifications", "Redgum.Logging.Extensions.Justifications\Redgum.Logging.Extensions.Justifications.csproj", "{2E0900F1-F310-4248-A873-58555420B2C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D5EC426-4BDC-4343-8ACD-97221AF87D1C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		exclusion.dic = exclusion.dic
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F4F36D-1C7C-4D62-B9F8-87262B0993FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F4F36D-1C7C-4D62-B9F8-87262B0993FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F4F36D-1C7C-4D62-B9F8-87262B0993FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F4F36D-1C7C-4D62-B9F8-87262B0993FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C5888E-C588-4B8E-841D-92528377138D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C5888E-C588-4B8E-841D-92528377138D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C5888E-C588-4B8E-841D-92528377138D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C5888E-C588-4B8E-841D-92528377138D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800B1CD8-A515-4F3A-9A48-C57EDAE17096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800B1CD8-A515-4F3A-9A48-C57EDAE17096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800B1CD8-A515-4F3A-9A48-C57EDAE17096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800B1CD8-A515-4F3A-9A48-C57EDAE17096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0900F1-F310-4248-A873-58555420B2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0900F1-F310-4248-A873-58555420B2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0900F1-F310-4248-A873-58555420B2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0900F1-F310-4248-A873-58555420B2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75622356-A96A-4D37-9C6E-C3652D464F38}
+	EndGlobalSection
+EndGlobal
