@@ -8,6 +8,19 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.*" />
+    <PackageReference Include="MinVer" Version="4.3.0" PrivateAssets="all" />
   </ItemGroup>
-
+  <PropertyGroup>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <PackageProjectUrl>https://github.com/RedgumTechnologies/logging.extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RedgumTechnologies/logging.extensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>redgum logging blockLogging</PackageTags>
+    <Description>Block logging extension methods for Microsoft.Extensions.Logging.ILogger </Description>
+    <Copyright>Copyright © 2023 Redgum Technologies Pty Ltd</Copyright>
+    <Authors>ScottRapsey, RedgumTechnologies</Authors>
+    <Title>Redgum.Logging.Extensions</Title>
+    <Company>RedgumTechnologies</Company>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
 </Project>
