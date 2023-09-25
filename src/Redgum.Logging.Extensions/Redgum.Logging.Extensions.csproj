@@ -22,5 +22,7 @@
     <Title>Redgum.Logging.Extensions</Title>
     <Company>RedgumTechnologies</Company>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 </Project>
