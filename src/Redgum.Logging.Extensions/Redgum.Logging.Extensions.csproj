@@ -16,6 +16,7 @@
     <PackageProjectUrl>https://github.com/RedgumTechnologies/logging.extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/RedgumTechnologies/logging.extensions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>redgum logging blockLogging</PackageTags>
     <Description>Block logging extension methods for Microsoft.Extensions.Logging.ILogger </Description>
     <Copyright>Copyright © 2023 Redgum Technologies Pty Ltd</Copyright>
@@ -25,5 +26,9 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
 </Project>
