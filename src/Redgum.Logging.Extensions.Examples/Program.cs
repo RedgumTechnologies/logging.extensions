@@ -201,7 +201,7 @@ namespace Redgum.Logging.Extensions.Examples
                 // so the logs will say "Beginning LocalFunctionBlock" twice
                 //using var log2 = _logger.BeginAutoBlock();
                 // but we can pass our own Block name here instead
-                using var log2 = _logger.BeginAutoBlock(process: nameof(GetIntegerValue));
+                using var log2 = _logger.BeginAutoBlock(blockName: nameof(GetIntegerValue));
                 return 1;
             }
         }
@@ -212,7 +212,7 @@ namespace Redgum.Logging.Extensions.Examples
 
             var aLambdaExpression = () =>
             {
-                using var log2 = _logger.BeginAutoBlock(process: $"{nameof(LocalLambdaExpressionBlock)}_aLambdaExpression");
+                using var log2 = _logger.BeginAutoBlock(blockName: $"{nameof(LocalLambdaExpressionBlock)}_aLambdaExpression");
                 return 1;
             };
 
@@ -291,7 +291,7 @@ namespace Redgum.Logging.Extensions.Examples
 
             var aLambdaExpression = () =>
             {
-                using var log2 = _logger.BeginAutoBlock(process: $"{nameof(MessageUnAwaitedAsync)}_aLambdaExpression");
+                using var log2 = _logger.BeginAutoBlock(blockName: $"{nameof(MessageUnAwaitedAsync)}_aLambdaExpression");
                 return 1;
             };
 
